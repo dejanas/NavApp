@@ -67,7 +67,7 @@ public class DetailActivity extends FragmentActivity {
         if(office != null){
 
             txtName.setText(office.getName());
-            txtAddress.setText(office.getZip() + office.getCity() + ", " + office.getStreet());
+            txtAddress.setText(office.getZip() + "" + office.getCity() + ", " + office.getStreet());
             txtHours.setText(office.getOpeningHours());
             txtPhone.setText(office.getPhone());
 
